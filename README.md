@@ -19,13 +19,13 @@
 
 Full project on YouTube [click here](https://www.youtube.com/watch?v=MYyJ4PuL4pY)
 
-Your localhost is this : http://firstproject.test/ [Click here to open](http://firstproject.test/)
+Your localhost is this : http://firstproject.test/
 
 Videos for problem solving:
 
-1. How to create a virtual host in XAMPP Windows 10 | Laravel Project[click here](https://www.youtube.com/watch?v=ABxWF4WjLLE&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=4)
+1. How to create a virtual host in XAMPP Windows 10 | Laravel Project [click here](https://www.youtube.com/watch?v=ABxWF4WjLLE&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=4)
 
-2. mysql port: 2Ways to solve problem Port 80 in use by Unable to open process with PID 4 in XAMPP[click here](https://www.youtube.com/watch?v=3oB8gJMfDZY&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=2)
+2. mysql port: 2Ways to solve problem Port 80 in use by Unable to open process with PID 4 in XAMPP [click here](https://www.youtube.com/watch?v=3oB8gJMfDZY&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=2)
 
 ## Images
 
