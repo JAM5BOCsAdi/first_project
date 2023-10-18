@@ -36,10 +36,10 @@ Videos for problem solving:
 
 <p id="iisWindows">IIS Windows:</p>
 <img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/5332f201-1aca-4294-87be-deca0e2fb8cd">
-<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/6445466d-cda4-4cd0-b2a6-f6f7b464160d">
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/15b0379e-96a8-4167-bc99-319ee6f10d2f">
 
 <p id="phpMyAdmin">phpMyAdmin:</p>
-<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/15b0379e-96a8-4167-bc99-319ee6f10d2f">
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/6445466d-cda4-4cd0-b2a6-f6f7b464160d">
 <img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/9c65e6d9-cad0-4adc-b18a-a094e50df2c1">
 
 ## About Laravel
