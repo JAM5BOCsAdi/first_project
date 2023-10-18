@@ -27,16 +27,13 @@ Open these files like this:
 4. File -> Open
 5. Search for the 2 files [httpd-vhosts.conf and hosts] and open it in 2 Notepad
 
-Than you can continue
-. |
-. |
-. ˇ
+Than you can continue here below
 
 When you create virtual host(s), you should pay attention to these:
 
-httpd-vhosts.conf file: C:\Windows\System32\drivers\etc
+|| httpd-vhosts.conf || file: C:\Windows\System32\drivers\etc
 
-Add these lines [Check out the README.md Edit, better for understanding]:
+Add these lines [Check out the README.md Edit, better for]:
 
 <VirtualHost \*:80>
 DocumentRoot "C:/xampp/htdocs"
@@ -62,7 +59,7 @@ CustomLog "logs/dummy-host2.example.com-access.log" common
 
     ServerName and Alias should be the same as in the hosts file "firstproject.test" [here below]
 
-hosts file: C:\xampp\apache\conf\extra
+|| hosts || file: C:\xampp\apache\conf\extra
 
 Add these lines:
 
