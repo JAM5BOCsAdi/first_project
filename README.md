@@ -13,7 +13,9 @@
 
 1. Open Xampp
 2. Start Apache and (after) MySQL
-3. Check the Service Configs everything is correct (<a href="#firstImage">First Image</a>)
+3. Check the Service Settings everything is correct (<a href="#serviceSettingImg">Service Settings</a>)
+4. If you click on the Apache -> Admin, it take you to the IIS Windows (<a href="#iisWindows">IIS Windows</a>)
+5. If you click on the MySQL -> Admin, it take you to the phpMyAdmin (<a href="#phpMyAdmin">phpMyAdmin</a>)
 
 ## Links
 
@@ -29,8 +31,16 @@ Videos for problem solving:
 
 ## Images
 
-<p id="firstImage">First image:</p>
+<p id="serviceSettingImg">Service Settings:</p>
 <img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/23e703a0-382f-480f-b1c6-cd0ef6953600">
+
+<p id="iisWindows">IIS Windows:</p>
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/5332f201-1aca-4294-87be-deca0e2fb8cd">
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/6445466d-cda4-4cd0-b2a6-f6f7b464160d">
+
+<p id="phpMyAdmin">phpMyAdmin:</p>
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/15b0379e-96a8-4167-bc99-319ee6f10d2f">
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/9c65e6d9-cad0-4adc-b18a-a094e50df2c1">
 
 ## About Laravel
 
