@@ -23,13 +23,14 @@ Your localhost is this : http://firstproject.test/ [Click here to open](http://f
 
 Videos for problem solving:
 
-[How to create a virtual host in XAMPP Windows 10 | Laravel Project](https://www.youtube.com/watch?v=ABxWF4WjLLE&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=4)
+1. How to create a virtual host in XAMPP Windows 10 | Laravel Project[click here](https://www.youtube.com/watch?v=ABxWF4WjLLE&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=4)
 
-[mysql port: 2Ways to solve problem Port 80 in use by Unable to open process with PID 4 in XAMPP](https://www.youtube.com/watch?v=3oB8gJMfDZY&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=2)
+2. mysql port: 2Ways to solve problem Port 80 in use by Unable to open process with PID 4 in XAMPP[click here](https://www.youtube.com/watch?v=3oB8gJMfDZY&list=PLmpr6AdtJCGom4s9dIG9wXTuQN3VJBpdg&index=2)
 
 ## Images
 
- <img id="firstImage" height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/23e703a0-382f-480f-b1c6-cd0ef6953600">
+<p id="firstImage">First image:</p>
+<img height="400 px" src="https://github.com/JAM5BOCsAdi/first_project/assets/90914431/23e703a0-382f-480f-b1c6-cd0ef6953600">
 
 ## About Laravel
 
