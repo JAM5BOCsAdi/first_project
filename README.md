@@ -36,12 +36,12 @@ When you create virtual host(s), you should pay attention to these:
 
 httpd-vhosts.conf file: C:\Windows\System32\drivers\etc
 
-Add these lines (per => /):
+Add these lines [Check out the README.md Edit, better for understanding]:
 
 <VirtualHost \*:80>
 DocumentRoot "C:/xampp/htdocs"
 ServerName localhost
-<per VirtualHost>
+</VirtualHost>
 
 <VirtualHost \*:80>
 ServerAdmin webmaster@firstproject.test
@@ -50,7 +50,7 @@ ServerName firstproject.test
 ServerAlias www.firstproject.test
 ErrorLog "logs/dummy-host2.example.com-error.log"
 CustomLog "logs/dummy-host2.example.com-access.log" common
-<per VirtualHost>
+</VirtualHost>
 
 1. <VirtualHost \*:80> should be the same as Port(s) -> 80
 
