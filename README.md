@@ -17,6 +17,47 @@
 4. If you click on the Apache -> Admin, it take you to the IIS Windows (<a href="#iisWindows">IIS Windows</a>)
 5. If you click on the MySQL -> Admin, it take you to the phpMyAdmin (<a href="#phpMyAdmin">phpMyAdmin</a>)
 
+## Virtual Host
+
+When you create virtual host(s), you should pay attention to these:
+
+httpd-vhosts.conf file: C:\Windows\System32\drivers\etc
+
+Add these lines:
+
+<VirtualHost \*:80>
+DocumentRoot "C:/xampp/htdocs"
+ServerName localhost
+</VirtualHost>
+
+<VirtualHost \*:80>
+ServerAdmin webmaster@firstproject.test
+DocumentRoot "C:/xampp/htdocs/projects/first_project/public/"
+ServerName firstproject.test
+ServerAlias www.firstproject.test
+ErrorLog "logs/dummy-host2.example.com-error.log"
+CustomLog "logs/dummy-host2.example.com-access.log" common
+</VirtualHost>
+
+1. <VirtualHost \*:80> should be the same as Port(s) -> 80
+
+2. Change the namings according to you project:
+
+    ServerAdmin webmaster@firstproject.test
+    ServerName firstproject.test
+    ServerAlias www.firstproject.test
+
+    ServerName and Alias should be the same as in the hosts file "firstproject.test" [here below]
+
+hosts file: C:\xampp\apache\conf\extra
+
+Add these lines:
+
+    127.0.0.1	localhost
+    127.0.0.1	firstproject.test
+
+    "firstproject.test" should be the same as in the httpd-vhosts.conf file's ServerAdmin, ServerName, ServerAlias [here above]
+
 ## Links
 
 Full project on YouTube [click here](https://www.youtube.com/watch?v=MYyJ4PuL4pY)
