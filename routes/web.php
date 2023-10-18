@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Models\Listing;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,36 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// http://firstproject.test:84/
+// or
+// http://127.0.0.1:8000/   <- default localhost
+
+// All Listings
 Route::get('/', function () {
-    return view('welcome');
+    return view('listings', [
+        'heading' => 'Latest listings',
+        'listings' => Listing::all()
+    ]);
 });
+
+// Single Listing
+Route::get('/listings/{id}', function ($id) {
+    return view('listing', [
+        'listing' => Listing::find($id)
+    ]);
+});
+
+// Route::get('/hello', function () {
+//     return response('<h1>hello</h1>', 200)
+//         ->header('Content-Type', 'text/plain')
+//         ->header('foo', 'bar');
+// });
+
+// Route::get('/posts/{id}', function ($id) {
+//     dd($id);
+//     return response('Post ' . $id);
+// })->where('id', '[0-9]+');
+
+// Route::get('/search', function (Request $request) {
+//     return ($request->name . ' ' . $request->city);
+// });
