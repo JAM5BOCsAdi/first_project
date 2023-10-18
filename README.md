@@ -19,6 +19,19 @@
 
 ## Virtual Host
 
+Open these files like this:
+
+1. Search for Notepad
+2. Right Click
+3. Run as Administrator
+4. File -> Open
+5. Search for the 2 files [httpd-vhosts.conf and hosts] and open it in 2 Notepad
+
+Than you can continue
+|
+|
+ˇ
+
 When you create virtual host(s), you should pay attention to these:
 
 httpd-vhosts.conf file: C:\Windows\System32\drivers\etc
